@@ -3,6 +3,7 @@ import './App.css';
 import Main from './Main.js';
 import Header from './Header.js';
 import Footer from './Footer.js';
+import beastData from './data.json';
 
 class App extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class App extends React.Component {
       <div className="App">
         <h1></h1>
         <Header />
-        <Main />
+        <Main imageURLs={beastData}/>
         <Footer/>
       </div>
     );
