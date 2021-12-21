@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <Navbar className="header">
         <Navbar.Brand>
-        <h1>{this.props.title}</h1>
+        <h1>Unique Horned Characters</h1>
         </Navbar.Brand>
       </Navbar>
     );

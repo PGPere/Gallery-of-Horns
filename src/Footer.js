@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return (
       <Navbar className="footer">
       <Navbar.Brand>
-        <h1>{this.props.text}</h1>
+        <h1>Author: Pedro G. Perez</h1>
       </Navbar.Brand>
     </Navbar>
     );
