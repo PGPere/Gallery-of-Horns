@@ -9,6 +9,7 @@ class Main extends React.Component {
     return (
       <Container>
          <Row sm={1} md={2} lg={3} xl={4} >
+           {/* The below funciton renders Images  */}
           {this.props.beastImgs.map((beastObj, idx) => (
             <HornedBeast beast={beastObj} key={idx} showModal={this.props.showModal}/>
           ))}
