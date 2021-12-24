@@ -21,3 +21,8 @@ h1 {
   color: blue;
   margin-left: 8rem;
 }
+
+label {
+  font-size: 2rem;
+  color: blueviolet;
+}
